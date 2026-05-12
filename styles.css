@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 1%;
+    
+}
+
+a {
+    text-decoration: none;
+    font-size: 120%;
+    color: white;
+    padding: 0 2%;
+}
+
+a:hover {
+    color: rgb(156, 156, 156);
+}
+
+a:active {
+    color: rgb(106, 106, 106);
+}
+
+h3 {
+    font-size: 400%;
+    padding: 0 0;
+    margin: 0 0;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-size: 400%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+h2 {
+    color: white;
+    font-size: 200%;
+    text-align: center;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+    font-size: 200%;
+}
+
+#pelaaNappi {
+    font-size: 300%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    
+    
+}
+
+#buttonWrap {
+    position: absolute;
+    text-align: center;
+}
