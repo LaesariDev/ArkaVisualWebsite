@@ -1,15 +1,33 @@
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     margin: 0;
+    background-image:url(img/bgImg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+/*NAV SÄÄTÖ*/
+
 nav {
-    background-color: rgb(53, 53, 53);
+    background-color: rgb(30, 30, 30);
     display: flex;
     justify-content:center;
     align-items: center;
     padding: 1%;
     
+}
+
+#navContent {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    white-space: nowrap;
+    gap: 2%;
+    padding-right: 10%;
+}
+
+#navOtsikko {
+    padding-right: 20%;
 }
 
 a {
@@ -27,18 +45,16 @@ a:active {
     color: rgb(106, 106, 106);
 }
 
-h3 {
-    font-size: 400%;
-    padding: 0 0;
-    margin: 0 0;
-    color: white;
-}
+/*NAV SÄÄTÖ Loppuu*/
+
+/*H-elementit*/
 
 h1 {
     color: white;
     font-size: 400%;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 8%;
+    margin-bottom: 0;
 }
 
 h2 {
@@ -47,19 +63,57 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    font-size: 400%;
+    padding: 0 0;
+    margin: 0 0;
+    color: white;
+}
+
 h4 {
     color: white;
     text-align: center;
     font-size: 200%;
 }
+/*H-Elementit loppuu*/
 
+/*DIVit*/
+#introSect {
+    background-color: rgb(30, 30, 30);
+}
+
+#introTeksti {
+    margin-top: 10%;
+
+    display: flex;
+    justify-content: left;
+    color: white;
+    font-size: 150%;
+}
+/*DIVit Loppuu*/
+
+
+/*Nappi säätö*/
 #pelaaNappi {
-    font-size: 300%;
+    font-size: 150%;
+    padding: 0.5% 2%;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0%);
-    
-    
+
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    border: 2px solid white;
+    cursor: pointer;
+
+    transition: background-color 0.3s ease-in-out;
+       
+}
+
+#pelaaNappi:hover {
+    background-color: rgb(55, 55, 55);
 }
 
 #buttonWrap {
